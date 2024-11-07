@@ -286,6 +286,7 @@ public class DevServicesDatasourceProcessor {
                     dataSourceBuildTimeConfig.devservices().username(),
                     dataSourceBuildTimeConfig.devservices().password(),
                     dataSourceBuildTimeConfig.devservices().initScriptPath(),
+                    dataSourceBuildTimeConfig.devservices().showLogs(),
                     dataSourceBuildTimeConfig.devservices().volumes(),
                     dataSourceBuildTimeConfig.devservices().reuse());
 

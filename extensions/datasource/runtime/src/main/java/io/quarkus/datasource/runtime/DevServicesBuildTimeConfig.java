@@ -90,6 +90,11 @@ public interface DevServicesBuildTimeConfig {
     Optional<String> initScriptPath();
 
     /**
+     * Whether the logs should be consumed by the JBoss logger.
+     */
+    Optional<Boolean> showLogs();
+
+    /**
      * The volumes to be mapped to the container.
      * <p>
      * The map key corresponds to the host location; the map value is the container location.
